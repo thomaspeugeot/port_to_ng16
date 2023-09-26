@@ -16,7 +16,7 @@ import (
 
 var (
 	allCommands         = flag.Bool("allCommands", true, "generates allCommands")
-	setSkipLibCheckTrue = flag.Bool("setSkipLibCheckTrue", true, "generates setSkipLibCheckTrue")
+	setSkipLibCheckTrue = flag.Bool("setSkipLibCheckTrue", false, "generates setSkipLibCheckTrue")
 )
 
 func main() {
