@@ -15,8 +15,7 @@ import (
 )
 
 var (
-	allCommands         = flag.Bool("allCommands", true, "generates allCommands")
-	setSkipLibCheckTrue = flag.Bool("setSkipLibCheckTrue", false, "generates setSkipLibCheckTrue")
+	allCommands = flag.Bool("allCommands", true, "generates allCommands")
 )
 
 func main() {
@@ -26,7 +25,7 @@ func main() {
 		log.Fatal("surplus arguments")
 	}
 
-	if *setSkipLibCheckTrue || *allCommands {
+	if false {
 
 		{
 			// Read the contents of the tsconfig.json file
